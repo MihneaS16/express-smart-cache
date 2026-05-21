@@ -1,0 +1,34 @@
+{
+  "name": "express-smart-cache",
+  "version": "1.0.0",
+  "description": "A lightweight, zero-dependency caching middleware for Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js",
+    "demo1": "node demo/app1.js",
+    "demo2": "node demo/app2.js"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "cache",
+    "performance"
+  ],
+  "author": "Mihnea",
+  "license": "MIT",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.1.3",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "peerDependencies": {
+    "express": "^5.0.0"
+  },
+  "devDependencies": {
+    "express": "^5.2.1",
+    "assert": "^2.1.0"
+  }
+}
